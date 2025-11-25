@@ -2,6 +2,16 @@
 
 This is my **personal portfolio website**, where I showcase some of the work that I do not include in my resume. I built this project to explore **modern front-end technologies**, improve my **deployment skills**, and experiment with **UI frameworks**.
 
+## Deploy
+
+One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and serves `dist/` automatically).
+
+[![Deploy to Tencent EdgeOne Pages](https://img.shields.io/badge/Deploy-Tencent%20EdgeOne%20Pages-006EFF?style=for-the-badge&logo=tencentqq&logoColor=white)](https://edgeone.ai/pages/new?template=https%3A%2F%2Fgithub.com%2Fnuonuo-888%2FAstro-Shadcn-portfolio&output-directory=dist&build-command=npm+run+build&install-command=npm+install&origin_from=childtom)
+
+## Preview
+
+[![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://Astro-Shadcn-portfolio.edgeone.app/)
+
 ## 🌟 Motivation
 
 I created this portfolio for three main reasons:
@@ -12,10 +22,10 @@ I created this portfolio for three main reasons:
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Astro  
-- **UI Components:** Shadcn (React-based)  
-- **Hosting:** Vercel  
-- **Mockup Tool:** Started with [Bolt.new](https://bolt.new/)  
+- **Framework:** Astro
+- **UI Components:** Shadcn (React-based)
+- **Hosting:** Vercel
+- **Mockup Tool:** Started with [Bolt.new](https://bolt.new/)
 
 ## 🎨 Development Process
 
@@ -31,9 +41,11 @@ I initially designed a **mockup** using **Bolt.new** and then iterated on the co
 ---
 
 ## Overview
+
 This project is a portfolio website showcasing projects, experience, and skills. Built using modern web technologies, it provides an interactive and dynamic way to present professional achievements.
 
 ## Features
+
 - Dynamic project showcase
 - Skills and experience display
 - Contact and social media links
@@ -57,6 +69,7 @@ npm install
 ```sh
 npm run dev
 ```
+
 This will start a local development server, and you can preview the portfolio by opening http://localhost:4321 in your browser.
 
 ## Modifying the `/data` Files
@@ -64,27 +77,33 @@ This will start a local development server, and you can preview the portfolio by
 The project uses data stored in `/data` files to dynamically render content. You can modify these files to customize the information displayed on your portfolio.
 
 ### `/data/config.ts`
+
 This file contains global configuration settings such as the site title, description, author name, and social media links.
 
 **Example:**
+
 ```ts
 export const config = {
-  siteTitle: 'John Doe Portfolio',
-  description: 'Hi, I am John Doe, a passionate web developer and data analyst.',
-  author: 'John Doe',
-  contactEmail: 'johndoe@example.com',
+  siteTitle: "John Doe Portfolio",
+  description:
+    "Hi, I am John Doe, a passionate web developer and data analyst.",
+  author: "John Doe",
+  contactEmail: "johndoe@example.com",
   social: {
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    github: 'https://github.com/johndoe'
-  }
+    linkedin: "https://www.linkedin.com/in/johndoe/",
+    github: "https://github.com/johndoe",
+  },
 };
 ```
+
 Modify the values accordingly and save the file to see updates reflected on the site.
 
 ### `/data/jobs.ts`
+
 Defines the job history section of the portfolio. Each job entry includes title, company, dates, and a description.
 
 **Example:**
+
 ```ts
 export const jobs = [
   {
@@ -94,22 +113,26 @@ export const jobs = [
     description: [
       "Developed full-stack applications using React and Node.js.",
       "Implemented RESTful APIs for data processing.",
-      "Optimized SQL queries and database performance."
-    ]
-  }
+      "Optimized SQL queries and database performance.",
+    ],
+  },
 ];
 ```
+
 and so on...
 
 ### `/data/projects.ts`
+
 Defines the projects showcased in the portfolio. Each project includes an ID, title, summary, images, tags, and details.
 
 ### `/data/hero.ts`
+
 Defines the main personal introduction section.
 
 ### `/data/footer.ts`
+
 Defines the footer information, including social links and a quote.
 
 ## 📜 License
-Feel free to use and modify this project! If you find it useful, a mention would be appreciated. 🚀
 
+Feel free to use and modify this project! If you find it useful, a mention would be appreciated. 🚀
