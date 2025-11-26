@@ -16,15 +16,14 @@ One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and se
 
 I created this portfolio for three main reasons:
 
-1. **Showcase Unlisted Work** – Some of my projects don’t fit in a traditional resume, but I still wanted to share them publicly.
+1. **Showcase Unlisted Work** – Some of my projects don't fit in a traditional resume, but I still wanted to share them publicly.
 2. **Learn New Technologies** – This project helped me explore **Astro** and **Shadcn components**, as well as integrating **React** into an Astro project.
-3. **Improve Front-End & Deployment Skills** – I used **Vercel** for hosting and experimented with different tools to improve my workflow.
+3. **Improve Front-End & Deployment Skills** – Experimented with different tools to improve my workflow.
 
 ## 🛠️ Tech Stack
 
 - **Framework:** Astro
 - **UI Components:** Shadcn (React-based)
-- **Hosting:** Vercel
 - **Mockup Tool:** Started with [Bolt.new](https://bolt.new/)
 
 ## 🎨 Development Process
@@ -34,8 +33,7 @@ I initially designed a **mockup** using **Bolt.new** and then iterated on the co
 ## 📌 Notes for Cloning & Usage
 
 - You can **clone and modify this project** to create your own portfolio.
-- If you use this as a base, I’d appreciate it if you **mention my portfolio** or this repo in the footer:  
-  ➡ **[isaac-rosales.vercel.app](https://isaac-rosales.vercel.app)**
+- If you use this as a base, I'd appreciate it if you **mention this repo** in the footer:  
   ➡ **[Astro-Shadcn-portfolio](https://github.com/raulrls/Astro-Shadcn-portfolio)**
 
 ---
